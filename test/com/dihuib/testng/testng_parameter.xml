@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  
+  <parameter name="param1" value="parameter 1"/>
+  
+  <test name="Test">
+    <classes>
+      <class name="com.dihuib.testng.TestNGTest"/>
+    </classes>
+  </test> 
+  
+</suite> <!-- Suite -->

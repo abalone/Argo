@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<groups>
+			<define name="group12">
+				<include name="group1" />
+				<include name="group2" />
+			</define>
+			<run>
+				<include name="group12" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.dihuib.testng.TestNGTest">
+				<methods>
+					<include name=".*method.*" />
+					<exclude name="method1" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
