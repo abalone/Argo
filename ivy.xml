@@ -9,6 +9,7 @@
         <dependency org="com.google.inject" name="guice" rev="3.0"></dependency>
         <dependency org="org.testng" name="testng" rev="6.8"></dependency>
         <dependency org="org.jbehave" name="jbehave-core" rev="3.5.3"/>
+        <dependency org="org.aspectj" name="aspectjrt" rev="1.6.12"/>
     </dependencies>
 </ivy-module>
 

@@ -13,4 +13,16 @@
 		<ivy:settings file="ivy-settings.xml"/>
 		<ivy:retrieve/>
 	</target>
+	
+	<taskdef resource="org/aspectj/tools/ant/taskdefs/aspectjTaskdefs.properties" classpath="E:\ivycache\org.aspectj\aspectjtools\jars\aspectjtools-1.6.12.jar"></taskdef>
+	
+	<target name="aspectj">
+		<iajc source="1.6" target="1.6" debug="true" showWeaveInfo="true" verbose="true"
+			sourceroots="src"
+			classpath="E:\ivycache\org.aspectj\aspectjrt\jars\aspectjrt-1.6.12.jar">
+		</iajc>
+		
+		<jar destfile="build/aspectjapp.jar" includes="**" basedir="bin"/>
+	</target>
+	
 </project>
