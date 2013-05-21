@@ -10,6 +10,7 @@
         <dependency org="org.testng" name="testng" rev="6.8"></dependency>
         <dependency org="org.jbehave" name="jbehave-core" rev="3.5.3"/>
         <dependency org="org.aspectj" name="aspectjrt" rev="1.6.12"/>
+        <dependency org="commons-beanutils" name="commons-beanutils-core" rev="1.8.3"/>
     </dependencies>
 </ivy-module>
 
