@@ -11,6 +11,8 @@
         <dependency org="org.jbehave" name="jbehave-core" rev="3.5.3"/>
         <dependency org="org.aspectj" name="aspectjrt" rev="1.6.12"/>
         <dependency org="commons-beanutils" name="commons-beanutils-core" rev="1.8.3"/>
+        <dependency org="jboss" name="jnp-client" rev="4.2.2.GA"/>
+        <dependency org="jboss" name="jboss-common" rev="4.2.2.GA"/>
     </dependencies>
 </ivy-module>
 
