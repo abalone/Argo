@@ -15,7 +15,7 @@
 	</bean>
 	
 	<bean id="destination" class="org.apache.activemq.command.ActiveMQQueue">
-		<constructor-arg value="COM.DIHUI.JMS.SPRING"/>
+		<constructor-arg value="COM.DIHUI.JMS.SPRING1"/>
 	</bean>
 	
 	<bean id="myJmsTemplate" class="org.springframework.jms.core.JmsTemplate">
